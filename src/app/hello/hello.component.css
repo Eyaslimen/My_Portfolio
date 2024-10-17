@@ -10,6 +10,15 @@
     color: #ef87cc;
     
 }
+.image {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+img {
+    height: 80%;
+    width: 90%;
+}
+
 .text {
     font-weight: 50;
     margin-left: 20%;
@@ -48,19 +57,11 @@ button {
     padding: 13px;
     margin-left: 10%;
     border:none;
-    background: linear-gradient(90deg, #e92efb, #c180ee);
+    background: linear-gradient(90deg,#7027a4, #e92efb );
     cursor: pointer;
     transition: box-shadow 0.3s ease;
 }
 button:hover {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.15); /* Ombre lors du survol */
     transform: scale(1.02);
-}
-.image {
-    margin-top: 10%;
-    margin-left: 25%;
-}
-img {
-    height: 80%;
-    width: 90%;
 }
