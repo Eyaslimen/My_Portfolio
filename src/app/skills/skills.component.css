@@ -1,0 +1,42 @@
+.skills {
+    background-color: #0e041b;
+    margin-top: -5%;
+    text-align: center;
+    height: 800px;
+    padding-top: 8%;
+}
+h1 {
+    font-size: 5vw;
+    color: #ef87cc;
+    font-family: 'Caveat', cursive;
+}
+.skills_name {
+    padding-top: 5%;
+    background-color: rgba(255, 255, 255, 0.091);
+    width: 80%;
+    margin-left: 10%;
+    height: 530px;
+    gap: 2%;
+    padding-left: 2%;
+}
+.ligne {
+    margin-top: 2%;
+    margin-left:4%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.skill {
+    padding-top: 10px;
+    border: 2px solid #ef87cc;
+    height: 120px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+}
+.skill:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.skill > img {
+    width: 50%;
+    height: 50%;
+}

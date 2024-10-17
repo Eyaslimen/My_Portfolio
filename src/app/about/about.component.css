@@ -1,0 +1,25 @@
+.about {
+    background-color: #0e041b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img {
+    width: 80%;
+}
+h1 {
+    font-size: 3.8vw;
+    text-align: center;
+    color:#ef87cc;
+    font-family: 'Caveat', cursive;
+}
+.text {
+margin-right: 5%;
+}
+p {
+    font-size: 2vw;
+   color: white;
+}
+h5 {
+    font-size: 2vw;
+    color: #c180ee;
+}
