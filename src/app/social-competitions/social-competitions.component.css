@@ -1,0 +1,24 @@
+.socialLife {
+    height: auto;
+    background-color: #0e041b ;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 80%;
+}
+.ligne1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img1 {
+    border: 2px solid red;
+    height: 100%;
+    width: 100%;
+}
+.class2 .img2 {
+    border: 2px solid red;
+    height: 60%;
+    width: 50%;  
+}
