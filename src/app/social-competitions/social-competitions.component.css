@@ -1,24 +1,38 @@
 .socialLife {
     height: auto;
     background-color: #0e041b ;
+    margin-top: -5%;
+    padding-bottom: 5%;
 }
-
+h1 {
+    font-size: 4vw;
+    color: #ef87cc;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
 .images {
     display: grid;
-    grid-template-columns: 80% 20%;
-    width: 80%;
+    width: 98%;
+    margin-left: 2%;
+    grid-template-columns:68% 28%;
+    gap: 2%;
 }
 .ligne1 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
 }
 .img1 {
-    border: 2px solid red;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
-.class2 .img2 {
-    border: 2px solid red;
-    height: 60%;
-    width: 50%;  
+.class2 > img {
+    height: 95%;
+    width: 90%;  
+}
+p {
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
 }
