@@ -13,13 +13,15 @@ h1 {
 .skills_name {
     padding-top: 5%;
     background-color: rgba(255, 255, 255, 0.091);
-    width: 80%;
+    width: 70%;
     margin-left: 10%;
-    height: 530px;
+    height: auto;
     gap: 2%;
-    padding-left: 2%;
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
 .ligne {
+    width: 80%;
     margin-top: 2%;
     margin-left:4%;
     display: grid;
@@ -28,13 +30,18 @@ h1 {
 .skill {
     padding-top: 10px;
     border: 2px solid #ef87cc;
-    height: 120px;
-    width: 120px;
+    box-shadow: 0.5px 1px rgba(255, 255, 255, 0.393);
+    height: 80px;
+    width: 100px;
     color: white;
     cursor: pointer;
+
 }
 .skill:hover {
-    background-color: rgba(255, 255, 255, 0.08);
+    background:linear-gradient(45deg,#7027a49f, #ea2efb91 ,#ea2efb91);
+    transition-duration: 5s;
+    transform-style: flat;
+
 }
 .skill > img {
     width: 50%;

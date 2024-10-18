@@ -2,7 +2,7 @@
     margin-top: -5%;
     background-color: #0e041b;
     width: 100%;
-    height: 800px;
+    height: auto;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -11,18 +11,18 @@
     
 }
 .image {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 25%;
 }
 img {
-    height: 80%;
-    width: 90%;
+    height: 90%;
+    width: 100%;
 }
 
 .text {
     font-weight: 50;
-    margin-left: 20%;
-    margin-top: 35%;
+    margin-left: 30%;
+    margin-top: 10%;
     color: white;
     font-family: 'Caveat', cursive;
 }

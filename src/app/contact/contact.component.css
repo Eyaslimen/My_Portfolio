@@ -1,5 +1,77 @@
-.contact {
+.contact_comp {
     height: auto;
-    background-color: #0e041b;
+    background: linear-gradient(45deg,#7027a4, #e92efb ,#0e041b);
+    margin-top: -1%;
+    padding-top: 2%;
+    padding-bottom: 5%;
     
+}
+h1 {
+    font-size: 3.8vw;
+    text-align: center;
+    color:white;
+    font-family: 'Caveat', cursive;
+}
+.text2 {
+    width: 70%;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .text2 label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1rem 0 0.5rem;
+    color: whitesmoke;
+    text-align: left;
+  }
+  
+  .text2 input[type="email"],
+  .text2 input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .text2 input[type="email"]:focus,
+  .text2 input[type="text"]:focus {
+    border-color: #0e041b;
+  }
+  
+  button {
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    margin-left: 2%;
+}
+button:hover {
+    background-color: white;
+    color:#e92efb;
+    transition-duration: 1s;
+    transform: scale(1.05);
+    
+}
+.social-icons {
+    text-align: center;
+    margin-top: -2%;
+    
+}
+i {
+    margin-left: 10px;
+    font-size: 2vw;
+    cursor: pointer;
+    color: white;
+}
+i:hover {
+   transform: scale(1.05);
 }

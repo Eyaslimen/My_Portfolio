@@ -3,14 +3,16 @@
     height: auto;
     margin-top: -1%;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     color: #ef87cc;
     font-family: 'Caveat', cursive;
     margin-left: 5%;
 }
 .project1{
+    margin-top: 5%;
     display: grid;
     grid-template-columns: 30% 70% ;
     padding-left: 5%;
@@ -25,6 +27,7 @@ font-size: 2.5vw;
     font-size: 1.5vw;
 }
 .project2 {
+    margin-top: 5%;
     padding-right: 5%;
     display: grid;
     grid-template-columns: 70% 30%;

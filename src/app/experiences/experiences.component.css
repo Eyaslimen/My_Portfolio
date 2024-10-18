@@ -1,14 +1,15 @@
 .experiences {
     background-color: #0e041b;
     height: auto;
-    margin-top: -5%;
-    padding-top: 5%;
+    margin-top: -10%;
+    padding-top: 1%;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     color: #ef87cc;
     font-family: 'Caveat', cursive;
     margin-left: 5%;
+    margin-bottom: 8%;
 }
 .exp1 {
     display: grid;
@@ -17,6 +18,7 @@ h1 {
     margin-left: 5%;
     height: 220px;
     background-color: #ef87cc;
+    border-radius: 100px 0px 100px 0px;
 }
 .text1 {
     margin-left: 10%;
@@ -36,6 +38,8 @@ h1 {
     margin-left: 5%;
     height: 220px;
     background-color: #c180ee;
+    border-radius: 100px 0px 100px 0px;
+    margin-bottom: 1%;
 }
 .image2 > img {
     margin-top: 30%;
