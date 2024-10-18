@@ -3,7 +3,6 @@
     height: auto;
     margin-top: -1%;
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 h1 {
     font-size: 5vw;
@@ -58,7 +57,7 @@ p {
 /* Buttons */
 .demo {
     width: 100px;
-    background: radial-gradient(#c180ee,#ef87cc,white);
+    background: linear-gradient(90deg,#e92efb  ,#7027a4 );
     border-radius: 20px;
     padding: 12px;
     border: none;
