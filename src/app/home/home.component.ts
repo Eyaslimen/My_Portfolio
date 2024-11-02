@@ -6,6 +6,7 @@ import { ProjectsComponent } from "../projects/projects.component";
 import { ExperiencesComponent } from "../experiences/experiences.component";
 import { ContactComponent } from "../contact/contact.component";
 import { SocialCompetitionsComponent } from "../social-competitions/social-competitions.component";
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-home',
