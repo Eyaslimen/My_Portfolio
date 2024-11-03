@@ -15,8 +15,8 @@ export class HelloComponent implements OnInit {
   }
   downloadPdf() {
     const link = document.createElement('a');
-    link.href = 'Slimen__Eya_CV.pdf'; 
-    link.download = 'Slimen__Eya_CV.pdf'; 
+    link.href = 'CV_Slimen_Eya.pdf'; 
+    link.download = 'CV_Slimen_Eya.pdf'; 
     link.click();
   }
 }
