@@ -33,7 +33,7 @@ h1 {
 .class2 > img {
     height: 100%;
     width: 100%;  
-    object-fit: cover;
+    object-fit: cover;                  
 }
 p {
     font-size: 1.5vw;
