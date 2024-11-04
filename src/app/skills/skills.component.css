@@ -23,19 +23,20 @@ h1 {
 }
 .ligne {
     width: 80%;
-    margin-top: 2%;
     margin-left:4%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 .skill {
-    padding-top: 10px;
+    padding-top: 3%;
     border: 2px solid #ef87cc;
     box-shadow: 0.5px 1px rgba(255, 255, 255, 0.393);
-    height: 80px;
-    width: 100px;
+    height: auto;
+    width: 70%;
     color: white;
     cursor: pointer;
+    font-size: 1vw;
 
 }
 .skill:hover {
