@@ -26,8 +26,9 @@ font-size: 2.5vw;
     font-size: 1.5vw;
 }
 .project2 {
+    padding-left: 5%;
+    padding-right: 2%;
     margin-top: 3%;
-    padding-right: 5%;
     display: grid;
     grid-template-columns: 70% 30%;
 }
@@ -51,8 +52,12 @@ p {
     font-size: 1.5vw;
     color: whitesmoke;
 }
-.text {
+.project1 .text {
     margin-left: 10%;
+    margin-top: 5%;
+}
+.project2 .text {
+    margin-right: 10%;
     margin-top: 5%;
 }
 /* Buttons */
