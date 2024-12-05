@@ -1,73 +1,29 @@
 .about {
     background-color: #0e041b;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding-top: 10%;
+    grid-template-columns: 0.8fr 1.2fr ;
 }
 img {
-    width: 80%;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: -2%;
 }
 h1 {
     font-size: 5vw;
+    margin-bottom: -2%;
     text-align: center;
     color:#ef87cc;
     font-family: 'Caveat', cursive;
 }
 .text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+
+margin-top: -10%;
 margin-right: 5%;
 }
 .about_me {
-   font-size: 1.75vw;
+   font-size: 1.5vw;
    color: white;
-}
-h5 {
-    font-size: 1.75vw;
-    color: #c180ee;
-}
-
-
-.education-container {
-    margin-top: -5%;
-    padding: 20px;
-}
-
-h2 {
-    color: #c499ff;
-    margin-bottom: 20px;
-}
-
-.timeline {
-    position: relative;
-    padding-left: 40px;
-}
-
-.timeline-item {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-.dot {
-    position: absolute;
-    left: 0;
-    top: 5px;
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-}
-
-.content {
-    padding-left: 20px;
-    line-height: 1.6;
-    font-size: 16px;
-    color: white;
-}
-
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 4px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: #c499ff;
 }
